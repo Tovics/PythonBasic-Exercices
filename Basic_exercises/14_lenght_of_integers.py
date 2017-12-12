@@ -4,24 +4,24 @@ Write a program that maps a list of words into a list of integers representing t
 
 
 """
-def lenght_of(thing):
-    lenght = []
+def length_of(thing):
+    length = []
     for item in range(len(thing)):
-        lenght.append(len(thing[item]))
-    return lenght
+        length.append(len(thing[item]))
+    return length
 
-print(lenght_of(check))
+print(length_of(check))
 """
 
 
 def main():
-    user_input = input("Type here the sentence you want to know the lenght of it's words: ")
+    user_input = input("Type here the sentence you want to know the length of it's words: ")
     sentence = str(user_input)
     countable_sentence = sentence.split()
-    lenght = []
+    length = []
     for item in range(len(countable_sentence)):
-        lenght.append(len(countable_sentence[item]))
-    print("The lenghts of the words in the given sentence is: {}".format(lenght))
+        length.append(len(countable_sentence[item]))
+    print("The lengths of the words in the given sentence is: {}".format(length))
 
 
 if __name__ == '__main__':

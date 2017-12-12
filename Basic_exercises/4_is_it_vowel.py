@@ -11,7 +11,7 @@ def is_vowel(letter):
 
 
 def main():
-    letter_to_check = str(input("Give me a letter(a string of lenght 1): "))
+    letter_to_check = str(input("Give me a letter(a string of length 1): "))
     if is_vowel(letter_to_check) is True:
         print("The letter \"{}\" is a vowel.".format(letter_to_check))
     else:

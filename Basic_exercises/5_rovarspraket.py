@@ -7,9 +7,9 @@ For example, translate("this is fun") should return the string "tothohisos isos 
 
 def translate(sentence):
     rovarspraket = ""
-    exeptions = "aeiou ,!?'\"-"
+    exceptions = "aeiou ,!?'\"-"
     for character in sentence:
-        if character not in exeptions:
+        if character not in exceptions:
             rovarspraket += character
             rovarspraket += "o"
         rovarspraket += character

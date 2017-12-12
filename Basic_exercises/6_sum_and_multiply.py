@@ -21,8 +21,8 @@ def multiply(list_of_numbers):
 
 def main():
     example = [1, 2, 3, 4]
-    print("The result of summing the given list is: {}".format(summing(example)))
-    print("The result of multiplying the given list is: {}".format(multiply(example)))
+    print("The result of summing the given list is: {}".format(summing(example)))   # the result must be 10
+    print("The result of multiplying the given list is: {}".format(multiply(example)))  # the result must be 24
 
 
 if __name__ == '__main__':

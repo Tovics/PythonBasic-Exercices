@@ -18,7 +18,7 @@ def main():
     num1 = float(user_input1)
     num2 = float(user_input2)
     bigger = max_(num1, num2)
-    print("And the winner is: {}".format(bigger))
+    print("{} is the bigger number".format(bigger))
 
 
 if __name__ == '__main__':

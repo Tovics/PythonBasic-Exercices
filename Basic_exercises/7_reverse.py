@@ -9,7 +9,7 @@ def reverse(stringy_string):
 
 
 def main():
-    user_input = input("Tipe in that you want to reverse: ")
+    user_input = input("Type in that you want to reverse: ")
     print("Here you are: {} ".format(reverse(user_input)))
 
 

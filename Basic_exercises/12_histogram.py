@@ -9,12 +9,12 @@ For example, histogram([4, 9, 7]) should print the following:
 
 def histogram(list_of_integers):
     for i in list_of_integers:
-        return "*" * i
+        print("*" * i)
 
 
 def main():
     example = [4, 9, 7]
-    print(histogram(example))
+    histogram(example)
 
 
 if __name__ == '__main__':

@@ -8,6 +8,7 @@ function max_in_list() that takes a list of numbers and returns the largest one.
 
 
 def max_in_list(given_list):
+    print(given_list)
     result = 0
     for number in given_list:
         if number > result:

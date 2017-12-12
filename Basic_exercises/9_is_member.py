@@ -29,7 +29,7 @@ def is_member(x, a):
 def main():
     user_input = input("Give me a letter or a number: ")
     number_checklist = list(range(1, 11))
-    letter_checklist = "abcdaaaaaaaefghijklemnopqrstvwxyz"
+    letter_checklist = "abcdefghijklemnopqrstvwxyz"
     if is_member(user_input, letter_checklist) > 0:
         print("\"{}\" is in the list.".format(user_input))
     else:

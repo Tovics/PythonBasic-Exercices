@@ -12,8 +12,8 @@ you must not expect such simple rules to work for all cases.
 
 
 def make_ing_form(some_word):
-    exeptions = ("be", "see", "flee")
-    if some_word not in exeptions:
+    exceptions = ("be", "see", "flee")
+    if some_word not in exceptions:
         if some_word.endswith("e"):
             some_word = some_word[:-1]
             result = some_word + "ing"
@@ -26,8 +26,8 @@ def make_ing_form(some_word):
 
     elif some_word[-2] in "aiou":
         result = some_word + some_word[-1] + "ing"
-
-    return result
+    else:
+        return("Dude, this is in the exceptions.")
 
 
 def main():

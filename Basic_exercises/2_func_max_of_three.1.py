@@ -20,7 +20,7 @@ def main():
     num2 = float(user_input2)
     num3 = float(user_input3)
     biggest = max_of_three(num1, num2, num3)
-    print("And the winner is: {}".format(biggest))
+    print("{} is the biggest number".format(biggest))
 
 
 if __name__ == '__main__':
